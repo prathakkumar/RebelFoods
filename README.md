@@ -1,6 +1,6 @@
 # Gender Prediction given names
 Gender prediction from Indian names.
-The trained model tries to predict the gender of the person given the name of the person. The model has been trained only with Indian names for now.
+The trained model tries to predict the gender of the person given the name of the person. The model has been trained only with Indian names
 
 ## Using the model:
 
@@ -30,7 +30,6 @@ python3 classify.py animesh
 
 Model description:
 Character level embedding(One hot embedding) has been used and has been fed to a sequential Recurrent Neural Network(bidirectional).
-Currently, the model is trained for names with maximum 20 characters.
 
 
 
